@@ -12,7 +12,8 @@ function sc(){
        document.querySelector('.em').innerText = 'Weak'
      }*/ 
     
-    else if(pwd.match(medium_pwd)){   
+    else if(pwd.match(medium_pwd)){ 
+        console.log('medium')  
          document.querySelector('.sm').innerText = 'medium'
 
     } else if(!pwd.match(strong_pwd)){
