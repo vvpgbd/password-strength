@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password strenght checker</title>
+    <link rel="stylesheet" type="text/css" href="STR.css">
+</head>
+<body>
+    <section>
+    <div class = "Text">Password Strength checker</div>
+    <form name="register" class="form" onsubmit="event.preventDefault(); return sc()">
+        <div class = "pwd_st">
+            <input type="password" name="pwd" placeholder="password" id="pwd" class="FI">
+        </div>
+
+        <div class="em"></div>
+        <div class="sm"></div>
+        
+        <div class="register">
+            <button type="submit" class="btn_submit">strength check</button>
+        </div>
+
+    </form>
+    </section>
+
+    <script src="STRR.js"></script> 
+</body>
+</html>
